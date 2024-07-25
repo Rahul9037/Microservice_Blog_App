@@ -33,5 +33,6 @@ app.post("/events" , (req,res) => {
 })
 
 app.listen(4000 , () => {
+    console.log('version 1')
     console.log('listening to 4000')
 })
